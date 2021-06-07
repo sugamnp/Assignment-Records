@@ -66,7 +66,7 @@ class SecondPage(tk.Frame):
         label = tk.Label(self,bg="yellow",text='Manage your assignment',height="3",width="50",font='Helvetica 18 bold')
         label.pack()
         e1 = tk.Entry(self,width="60",)
-        e1.insert("end",'Enter you assignment Here')
+        e1.insert("end",'Enter your assignment here')
         e1.pack()
         e2 = tk.Entry(self,width="60")
         e2.insert("end",'Enter deadline here')
